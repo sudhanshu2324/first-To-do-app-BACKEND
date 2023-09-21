@@ -22,7 +22,7 @@ app.use("/api/v1/users", userRouter)
 app.use("/api/v1/tasks", taskRouter)
 //
 app.get("/", (req, res) => {
-    res.send("HI")
+    res.send("Hey! its SUDHANSHU MISHRA and I developed this API.")
 })
 
 //Error Middleware
